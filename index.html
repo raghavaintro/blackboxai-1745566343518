@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Free Gaming Downloads</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-['Roboto'] min-h-screen flex flex-col">
+  <header class="bg-gray-800 p-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Free Gaming Downloads</h1>
+      <nav>
+        <a href="#instructions" class="text-gray-300 hover:text-white transition px-3">How to Add Your Game Files</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mx-auto flex-grow p-6">
+    <section class="mb-10">
+      <h2 class="text-3xl font-semibold mb-6">Available Games</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Sample Game Card -->
+        <div class="bg-gray-800 rounded-lg shadow p-4 flex flex-col">
+          <h3 class="text-xl font-bold mb-2">Sample Game</h3>
+          <p class="mb-4 flex-grow">This is a sample game. Replace this with your own game details.</p>
+          <a href="downloads/sample-game.zip" download class="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded transition">
+            <i class="fas fa-download mr-2"></i> Download
+          </a>
+        </div>
+
+        <!-- Epic Adventure Game Card -->
+        <div class="bg-gray-800 rounded-lg shadow p-4 flex flex-col">
+          <h3 class="text-xl font-bold mb-2">Epic Adventure</h3>
+          <p class="mb-4 flex-grow">Download the exciting Epic Adventure game here.</p>
+          <a href="downloads/epic-adventure.exe" download class="inline-flex items-center justify-center bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded transition">
+            <i class="fas fa-download mr-2"></i> Download
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="instructions" class="bg-gray-800 rounded-lg p-6">
+      <h2 class="text-2xl font-semibold mb-4">How to Add Your Game Files</h2>
+      <p class="mb-2">To add your game files for download, follow these steps:</p>
+      <ol class="list-decimal list-inside space-y-2">
+        <li>Upload your game files to the <code>downloads/</code> folder in this project workspace.</li>
+        <li>Rename your files appropriately (e.g., <code>mygame.zip</code>).</li>
+        <li>Add a new game card in the <code>index.html</code> file under the "Available Games" section with the correct file link.</li>
+        <li>Example of a game card:
+          <pre class="bg-gray-700 p-2 rounded text-sm overflow-x-auto">
+<div class="bg-gray-800 rounded-lg shadow p-4 flex flex-col">
+  <h3 class="text-xl font-bold mb-2">My Game Title</h3>
+  <p class="mb-4 flex-grow">Description of my game.</p>
+  <a href="downloads/mygame.zip" download class="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded transition">
+    <i class="fas fa-download mr-2"></i> Download
+  </a>
+</div>
+          </pre>
+        </li>
+      </ol>
+      <p class="mt-4">Once you add your files and update the HTML, visitors to your website will be able to download your games for free.</p>
+    </section>
+  </main>
+
+  <footer class="bg-gray-800 p-4 text-center text-gray-400 text-sm">
+    &copy; 2024 Free Gaming Downloads. All rights reserved.
+  </footer>
+</body>
+</html>
