@@ -1,0 +1,19 @@
+How to Upload Your Game Files to the "downloads" Folder
+
+1. Using VSCode Web Interface:
+   - In the file explorer panel on the left, right-click on the "downloads" folder.
+   - Select "Upload Files" from the context menu.
+   - Choose the game files from your local computer that you want to upload.
+   - The files will be uploaded to the "downloads" folder in the project workspace.
+
+2. Using Drag and Drop:
+   - Open the "downloads" folder in the VSCode file explorer.
+   - Drag your game files from your local computer and drop them into the "downloads" folder in VSCode.
+
+3. After uploading:
+   - Update the index.html file to add a new game card with the correct file name and download link.
+   - Save the changes.
+
+4. Preview or deploy your website to allow visitors to download your games.
+
+If you need help updating the index.html file, refer to the instructions section on the website or ask for assistance.
