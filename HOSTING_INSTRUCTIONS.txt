@@ -1,0 +1,35 @@
+How to Host Your Gaming Website for Free Using GitHub Pages
+
+1. Create a GitHub Account:
+   - If you don't have one, go to https://github.com and sign up for a free account.
+
+2. Create a New Repository:
+   - After logging in, click the "+" icon in the top right corner and select "New repository".
+   - Name your repository (e.g., "gaming-website").
+   - Set the repository to Public.
+   - Click "Create repository".
+
+3. Upload Your Website Files:
+   - On the repository page, click "Add file" > "Upload files".
+   - Upload all your website files including:
+     - index.html
+     - downloads folder with your game files
+     - any other files you have
+   - Commit the changes.
+
+4. Enable GitHub Pages:
+   - Go to the repository "Settings" tab.
+   - Scroll down to the "Pages" section.
+   - Under "Source", select the branch "main" (or "master") and the root folder ("/").
+   - Click "Save".
+   - GitHub will provide a URL where your website is hosted (e.g., https://yourusername.github.io/gaming-website).
+
+5. Access Your Website:
+   - Visit the provided URL to see your live gaming website.
+   - Share this URL with others so they can download your games.
+
+6. Updating Your Website:
+   - To update your website, upload new files or update existing ones in the repository and commit the changes.
+   - The website will update automatically.
+
+If you need help with any of these steps, feel free to ask!
